@@ -5,8 +5,8 @@ a = Analysis(
     ['minecraft_uuid_tool.py'],
     pathex=[],
     binaries=[],
-    datas=[('config.json', '.'), ('firestore.rules', '.')],
-    hiddenimports=[],
+    datas=[('config.json', '.'), ('firestore.rules', '.'), ('firebase-key.json', '.')],
+    hiddenimports=['firebase_admin', 'google.oauth2'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -35,5 +35,4 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['app.ico'],
 )
