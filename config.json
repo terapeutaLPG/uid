@@ -1,0 +1,11 @@
+{
+  "project_id": "uidapk-71fed",
+  "web_api_key": "AIzaSyBOGQj-3zHLvI6bvUZKdQjX6Yvvo5Pzuck",
+  "service_account_file": "firebase-key.json",
+  "default_discord_webhook": "https://discord.com/api/webhooks/1257755185439314001/VP7z-oINhmLTmuLff20V6kYtNTrHiXNj_j3e2R9c7gfEN5hL5dGyPp6QU3Wth90CDBwo",
+  "session": {
+    "refresh_token": "",
+    "id_token": "",
+    "expires_at": 0
+  }
+}
